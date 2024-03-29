@@ -31,6 +31,24 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
+                },
+                {
+                    "name": "TourreteTurn",
+                    "type": "Value",
+                    "id": "4edc136c-ccd9-413e-91a5-989c888ea8cb",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "TouretteUpDown",
+                    "type": "Value",
+                    "id": "b6bb4d26-1fce-44bb-a99c-de9b30ed76cf",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
                 }
             ],
             "bindings": [
@@ -110,6 +128,28 @@
                     "action": "Move",
                     "isComposite": false,
                     "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "f0f9b606-a67e-4937-b235-3db38df1c329",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TourreteTurn",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "53f3a114-f41c-4d4d-8fa2-070ea9fdd0a8",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TouretteUpDown",
+                    "isComposite": false,
+                    "isPartOfComposite": false
                 }
             ]
         }
